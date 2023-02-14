@@ -1,0 +1,7 @@
+# sample pson 
+{
+string:'string with single quato'
+
+1:'abc'
+
+}

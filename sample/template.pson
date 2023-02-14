@@ -1,0 +1,17 @@
+{
+
+$Book{name:String, price:Number,author:{name:String, country:String}}
+
+#book{name:'name' price:10.5,author{name:'Jack', country:'UK'}}
+
+book<Book>{"Book's\\" Name" 10.5,{'Tom','UK'}}
+
+books<Book>[
+ {'one' 10.0 {'Jack1' 'UK'}}
+ {'two' 20.0 {'Jack2' 'US'}}
+ {'three' 30.0 {'Jack3' 'Japan'}}
+ {'four' 40.0 {'Jack4' 'China'}}
+ {'five' 50 {'Jack5' 'China'}}
+]
+
+}
